@@ -33,9 +33,11 @@
             text-align: center;
 
             .aca {
-                width: 450px;
-                height: 500px;
+                width: 400px;
+                height: 400px;
                 background-color: pink;
+                box-shadow: 0px 20px 25px -10px rgba(0, 0, 0, 0.5);
+                border-radius: 20px;
             }
 
             h3 {

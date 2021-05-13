@@ -1,4 +1,5 @@
 import './projects.scss';
+import project from '../assets/instagram.png';
 
 const Projects = () => {
     return (
@@ -9,18 +10,27 @@ const Projects = () => {
 
             <div className="show-projects">
                 <div className="project">
-                    <div className="aca"></div>
+                    <a target="_blank" href="https://cminstagram.netlify.app/" rel="noreferrer">
+                        <img src={project} className="aca" alt="project presentation" />
+                    </a>
                     <h3>Lorem ipsum</h3>
+                    <p>Instagram clone created with ReactJS ⚛️ </p>
                 </div>
 
                 <div className="project">
-                    <div className="aca"></div>
+                    <a target="_blank" href="https://cminstagram.netlify.app/" rel="noreferrer">
+                        <img src={project} className="aca" alt="project presentation" />
+                    </a>
                     <h3>Lorem ipsum</h3>
+                    <p>Instagram clone created with ReactJS ⚛️ </p>
                 </div>
 
                 <div className="project">
-                    <div className="aca"></div>
+                    <a target="_blank" href="https://cminstagram.netlify.app/" rel="noreferrer">
+                        <img src={project} className="aca" alt="project presentation" />
+                    </a>
                     <h3>Lorem ipsum</h3>
+                    <p>Instagram clone created with ReactJS ⚛️ </p>
                 </div>
             </div>
         </div>
